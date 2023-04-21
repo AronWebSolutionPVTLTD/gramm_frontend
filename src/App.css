@@ -83,3 +83,32 @@ body {
         @apply border border-white/30
     }
 }
+input#birthday::-webkit-calendar-picker-indicator {
+    filter: invert(0.5);
+    font-size: 20px;
+}
+input#birthday::-webkit-datetime-edit-text {
+    -webkit-appearance: none;
+    display: none;
+}
+input#birthday::-webkit-datetime-edit-month-field{
+    -webkit-appearance: none;
+    display: none;
+}
+input#birthday::-webkit-datetime-edit-day-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input#birthday::-webkit-datetime-edit-year-field {
+    -webkit-appearance: none;
+    display: none;
+}
+input::placeholder{
+    @apply text-light-black
+}
+.otp-input input::placeholder{
+    @apply text-white text-lg
+}
+.textarea::placeholder{
+    color: red;
+}
