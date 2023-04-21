@@ -6,8 +6,10 @@ module.exports = {
   theme: {
     extend: {
       maxWidth: {
+        '345px': '345px',
         '395px': '395px',
         '345px': '345px',
+        '700px':"700px",
         '73px': '73px',
         '1750px': '1750px',
         '148px': '148px',
@@ -40,11 +42,15 @@ module.exports = {
         'text-color': '#A19FA0',
         'black-20': '#202020',
         'dark-3c': '#3C3C3C'
+        'grey-color':"#A3A3A3",
+        'black-1':"#202020"
       },
       fontSize: {
+        '10px':"10px",
         '28px': "28px",
         '26px': "26px",
         '22px': "22px",
+        '32px':"32px"
       },
       borderRadius: {
         '10px': "10px"

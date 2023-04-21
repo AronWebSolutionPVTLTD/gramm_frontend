@@ -5,10 +5,9 @@ import AllRoutes from './Layout/AllRoutes';
 function App() {
   return (
     <div className="App">
-<AllRoutes/>
+      <AllRoutes/>
     </div>
   );
 }
 
 export default App;
- 

@@ -17,7 +17,13 @@ export default function Forgotpage(){
 								<button type="submit" className="btn-primary rounded-10px login-btn w-full max-w-full  h-64px mt-4 text-lg font-medium">Confirm</button>
 						</form> 
 					</div>
-			</div>   
+					<div className="forgot-password_text flex flex-col items-end py-4">
+						<span className="text-secondary-color text-xs cursor-pointer">Forgot Password?</span>
+					</div>
+					<button type="submit" className="btn-primary rounded-10px login-btn w-full p-5 mt-4 text-lg font-medium">Confirm</button>
+				</form> 
+			</div>
+		</div>   
         </>
     )
 }
