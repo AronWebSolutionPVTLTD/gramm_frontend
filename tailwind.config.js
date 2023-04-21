@@ -41,7 +41,7 @@ module.exports = {
         'light-blue': '#1B1A1F',
         'text-color': '#A19FA0',
         'black-20': '#202020',
-        'dark-3c': '#3C3C3C'
+        'dark-3c': '#3C3C3C',
         'grey-color':"#A3A3A3",
         'black-1':"#202020"
       },
